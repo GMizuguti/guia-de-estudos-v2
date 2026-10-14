@@ -1,0 +1,12 @@
+/* Blocos de código (src/engine/code.tsx). Fica fora do index.css, que muda por matéria. */
+
+/* dentro do texto (.prose-manual), o <code> do bloco não herda o chip do código na linha:
+   sem fundo, sem raio e no tamanho do bloco (senão aparece uma faixa cinza atrás das linhas) */
+.prose-manual .code-block code { background: transparent; border-radius: 0; font-size: inherit; padding: 0 1rem; }
+.prose-manual .code-block.code-bare code { padding: 0 0.85rem; }
+
+/* realce do pseudocódigo em português (lang "pseudo"): palavras-chave no acento, operadores e
+   comentários apagados */
+.code-block .pseudo-kw { color: var(--primary); font-weight: 600; }
+.code-block .pseudo-op { color: var(--muted-foreground); }
+.code-block .pseudo-cm { color: var(--muted-foreground); font-style: italic; }

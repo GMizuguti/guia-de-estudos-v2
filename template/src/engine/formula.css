@@ -1,0 +1,12 @@
+/* Fórmula escrita como texto (bloco deriv e math com plain: true): letras na fonte mono e setas de
+   uma fonte de matemática do sistema. A Consolas desenha → e ↔ minúsculas; a Cambria Math e a
+   Segoe UI Symbol (Windows) têm setas do tamanho do texto. Sem nenhuma das duas, fica a seta da mono. */
+@font-face {
+  font-family: "Formula Arrows";
+  src: local("Cambria Math"), local("Segoe UI Symbol");
+  unicode-range: U+2190-21FF, U+27F0-27FF, U+2900-297F;
+}
+
+.formula-font {
+  font-family: "Formula Arrows", var(--font-mono, ui-monospace, Consolas, monospace);
+}

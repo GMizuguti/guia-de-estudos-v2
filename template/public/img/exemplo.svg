@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 200" width="480" height="200" font-family="Georgia, serif" font-size="15">
+  <rect x="20" y="60" width="130" height="70" rx="6" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="85" y="100" text-anchor="middle" fill="#222">Entrada</text>
+  <rect x="330" y="60" width="130" height="70" rx="6" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="395" y="100" text-anchor="middle" fill="#222">Saída</text>
+  <line x1="150" y1="95" x2="322" y2="95" stroke="#222" stroke-width="2"/>
+  <polygon points="330,95 318,89 318,101" fill="#222"/>
+  <text x="240" y="84" text-anchor="middle" fill="#555" font-style="italic">processo</text>
+  <text x="240" y="175" text-anchor="middle" fill="#777" font-size="12">Figura de exemplo: troque por um recorte do PDF (public/img/)</text>
+</svg>
